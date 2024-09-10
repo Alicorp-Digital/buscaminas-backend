@@ -4,5 +4,4 @@ Self-hosted version of [Strapi](https://strapi.io/). Internally it uses a Postgr
 
 ## ✨ Features
 
-- Strapi
-- Postgres
+- Strapi + Postgress
