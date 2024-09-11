@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "client_cod": {
+      "type": "integer"
+    },
+    "visited": {
+      "type": "date"
+    },
+    "priority": {
+      "type": "enumeration",
+      "enum": [
+        "Súper Negocio",
+        "No Súper Negocio"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Si se prospectó",
+        "No desea prospectarse",
+        "Pendiente"
+      ]
+    },
+    "coments": {
+      "type": "text"
+    },
+    "long": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "string"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "clients"
+    }
+  }
+}
