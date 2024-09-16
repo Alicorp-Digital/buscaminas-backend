@@ -368,16 +368,16 @@ export interface ApiClientClient extends Schema.CollectionType {
     singularName: 'client';
     pluralName: 'clients';
     displayName: 'Client';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     name: Attribute.String;
-    client_cod: Attribute.Integer;
     visited: Attribute.Date;
     priority: Attribute.Enumeration<
-      ['S\u00FAper Negocio', 'No S\u00FAper Negocio']
+      ['prioridad_1', 'prioridad_2', 'propridad_3']
     >;
     status: Attribute.Enumeration<
       ['Si se prospect\u00F3', 'No desea prospectarse', 'Pendiente']
@@ -391,6 +391,10 @@ export interface ApiClientClient extends Schema.CollectionType {
       'api::client.client',
       'manyToOne',
       'plugin::users-permissions.user'
+    >;
+    comercial_name: Attribute.String;
+    business_type: Attribute.Enumeration<
+      ['bodega', 'poller\u00EDa', 'cebicher\u00EDa']
     >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;

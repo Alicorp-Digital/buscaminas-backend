@@ -4,7 +4,8 @@
   "info": {
     "singularName": "client",
     "pluralName": "clients",
-    "displayName": "Client"
+    "displayName": "Client",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,17 +15,15 @@
     "name": {
       "type": "string"
     },
-    "client_cod": {
-      "type": "integer"
-    },
     "visited": {
       "type": "date"
     },
     "priority": {
       "type": "enumeration",
       "enum": [
-        "Súper Negocio",
-        "No Súper Negocio"
+        "prioridad_1",
+        "prioridad_2",
+        "propridad_3"
       ]
     },
     "status": {
@@ -55,6 +54,17 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "clients"
+    },
+    "comercial_name": {
+      "type": "string"
+    },
+    "business_type": {
+      "type": "enumeration",
+      "enum": [
+        "bodega",
+        "pollería",
+        "cebichería"
+      ]
     }
   }
 }
