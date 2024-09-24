@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "client_name": {
       "type": "string"
     },
     "visited": {
@@ -34,7 +34,7 @@
         "Pendiente"
       ]
     },
-    "coments": {
+    "comments": {
       "type": "text"
     },
     "long": {
@@ -65,6 +65,9 @@
         "pollería",
         "cebichería"
       ]
+    },
+    "cellphone": {
+      "type": "integer"
     }
   }
 }

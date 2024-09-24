@@ -374,7 +374,7 @@ export interface ApiClientClient extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    name: Attribute.String;
+    client_name: Attribute.String;
     visited: Attribute.Date;
     priority: Attribute.Enumeration<
       ['prioridad_1', 'prioridad_2', 'propridad_3']
@@ -382,7 +382,7 @@ export interface ApiClientClient extends Schema.CollectionType {
     status: Attribute.Enumeration<
       ['Si se prospect\u00F3', 'No desea prospectarse', 'Pendiente']
     >;
-    coments: Attribute.Text;
+    comments: Attribute.Text;
     long: Attribute.String;
     lat: Attribute.String;
     address: Attribute.String;
@@ -396,6 +396,7 @@ export interface ApiClientClient extends Schema.CollectionType {
     business_type: Attribute.Enumeration<
       ['bodega', 'poller\u00EDa', 'cebicher\u00EDa']
     >;
+    cellphone: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
