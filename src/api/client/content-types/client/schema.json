@@ -67,7 +67,10 @@
       ]
     },
     "cellphone": {
-      "type": "integer"
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
     }
   }
 }

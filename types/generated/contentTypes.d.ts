@@ -396,7 +396,8 @@ export interface ApiClientClient extends Schema.CollectionType {
     business_type: Attribute.Enumeration<
       ['bodega', 'poller\u00EDa', 'cebicher\u00EDa']
     >;
-    cellphone: Attribute.Integer;
+    cellphone: Attribute.String;
+    district: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
