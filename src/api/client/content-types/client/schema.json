@@ -29,6 +29,7 @@
     "status": {
       "type": "enumeration",
       "enum": [
+        "Sin estado",
         "Si se prospectó",
         "No desea prospectarse",
         "Pendiente"

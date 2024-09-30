@@ -380,7 +380,12 @@ export interface ApiClientClient extends Schema.CollectionType {
       ['prioridad_1', 'prioridad_2', 'prioridad_3']
     >;
     status: Attribute.Enumeration<
-      ['Si se prospect\u00F3', 'No desea prospectarse', 'Pendiente']
+      [
+        'Sin estado',
+        'Si se prospect\u00F3',
+        'No desea prospectarse',
+        'Pendiente'
+      ]
     >;
     comments: Attribute.Text;
     long: Attribute.String;
