@@ -377,7 +377,7 @@ export interface ApiClientClient extends Schema.CollectionType {
     client_name: Attribute.String;
     visited: Attribute.Date;
     priority: Attribute.Enumeration<
-      ['prioridad_1', 'prioridad_2', 'propridad_3']
+      ['prioridad_1', 'prioridad_2', 'prioridad_3']
     >;
     status: Attribute.Enumeration<
       ['Si se prospect\u00F3', 'No desea prospectarse', 'Pendiente']
