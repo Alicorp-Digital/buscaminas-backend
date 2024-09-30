@@ -61,9 +61,15 @@
     "business_type": {
       "type": "enumeration",
       "enum": [
-        "bodega",
-        "pollería",
-        "cebichería"
+        "APART HOTEL",
+        "CEBICHERÍA",
+        "CHIFA",
+        "FUENTE DE SODA / SANGUCHERÍA",
+        "HOSPEDAJE",
+        "HOSTAL",
+        "HOTEL",
+        "MENÚ / CRIOLLA",
+        "POLLERÍA"
       ]
     },
     "cellphone": {

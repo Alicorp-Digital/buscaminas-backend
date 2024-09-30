@@ -394,7 +394,17 @@ export interface ApiClientClient extends Schema.CollectionType {
     >;
     comercial_name: Attribute.String;
     business_type: Attribute.Enumeration<
-      ['bodega', 'poller\u00EDa', 'cebicher\u00EDa']
+      [
+        'APART HOTEL',
+        'CEBICHER\u00CDA',
+        'CHIFA',
+        'FUENTE DE SODA / SANGUCHER\u00CDA',
+        'HOSPEDAJE',
+        'HOSTAL',
+        'HOTEL',
+        'MEN\u00DA / CRIOLLA',
+        'POLLER\u00CDA'
+      ]
     >;
     cellphone: Attribute.String;
     district: Attribute.String;
