@@ -6,9 +6,8 @@ module.exports = ({ env }) => ({
   },
   url: env("URL"),
   proxy: true,
-  rest: {
+  pagination: {
     defaultLimit: 1000,
     maxLimit: 1000,
-    withCount: true,
   },
 });
