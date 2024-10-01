@@ -29,7 +29,7 @@
     "status": {
       "type": "enumeration",
       "enum": [
-        "Sin estado",
+        "Es cliente",
         "Si se prospectó",
         "No desea prospectarse",
         "Pendiente"

@@ -381,7 +381,7 @@ export interface ApiClientClient extends Schema.CollectionType {
     >;
     status: Attribute.Enumeration<
       [
-        'Sin estado',
+        'Es cliente',
         'Si se prospect\u00F3',
         'No desea prospectarse',
         'Pendiente'
