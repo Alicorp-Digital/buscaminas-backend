@@ -63,14 +63,33 @@
       "type": "enumeration",
       "enum": [
         "APART HOTEL",
+        "CATERING",
         "CEBICHERÍA",
+        "CEBICHERÍA / MARISQ.",
         "CHIFA",
+        "CINES",
+        "COMIDA CASERA CRIOLL",
+        "COMIDA INTERNACIONAL",
         "FUENTE DE SODA / SANGUCHERÍA",
         "HOSPEDAJE",
-        "HOSTAL",
-        "HOTEL",
+        "HOTEL/CASINO",
+        "HOTEL/HOSTAL/CASINO",
+        "LAVANDERÍA INDEPEND.",
+        "LAVANDERÍAS",
         "MENÚ / CRIOLLA",
-        "POLLERÍA"
+        "PANABODEGA",
+        "PANADERÍA AVANZ.",
+        "PANADERÍA BÁSICA",
+        "PANAD./PASTEL/BODEGA",
+        "PANADISTRIBUIDORA",
+        "PANIFICACIÓN",
+        "PIZZERÍA / TRATTORÍA",
+        "POLLERÍA",
+        "RECURSO VARIADO",
+        "SANGUCHERÍA",
+        "SANGUCHERÍA/FTE. SOD",
+        "RESTAURANTE VARIADO",
+        "PEQ. INDUST. COMIDA"
       ]
     },
     "cellphone": {
@@ -78,6 +97,14 @@
     },
     "district": {
       "type": "string"
+    },
+    "new_priority": {
+      "type": "enumeration",
+      "enum": [
+        "prioridad_1",
+        "prioridad_2",
+        "prioridad_3"
+      ]
     }
   }
 }

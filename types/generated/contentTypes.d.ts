@@ -401,18 +401,40 @@ export interface ApiClientClient extends Schema.CollectionType {
     business_type: Attribute.Enumeration<
       [
         'APART HOTEL',
+        'CATERING',
         'CEBICHER\u00CDA',
+        'CEBICHER\u00CDA / MARISQ.',
         'CHIFA',
+        'CINES',
+        'COMIDA CASERA CRIOLL',
+        'COMIDA INTERNACIONAL',
         'FUENTE DE SODA / SANGUCHER\u00CDA',
         'HOSPEDAJE',
-        'HOSTAL',
-        'HOTEL',
+        'HOTEL/CASINO',
+        'HOTEL/HOSTAL/CASINO',
+        'LAVANDER\u00CDA INDEPEND.',
+        'LAVANDER\u00CDAS',
         'MEN\u00DA / CRIOLLA',
-        'POLLER\u00CDA'
+        'PANABODEGA',
+        'PANADER\u00CDA AVANZ.',
+        'PANADER\u00CDA B\u00C1SICA',
+        'PANAD./PASTEL/BODEGA',
+        'PANADISTRIBUIDORA',
+        'PANIFICACI\u00D3N',
+        'PIZZER\u00CDA / TRATTOR\u00CDA',
+        'POLLER\u00CDA',
+        'RECURSO VARIADO',
+        'SANGUCHER\u00CDA',
+        'SANGUCHER\u00CDA/FTE. SOD',
+        'RESTAURANTE VARIADO',
+        'PEQ. INDUST. COMIDA'
       ]
     >;
     cellphone: Attribute.String;
     district: Attribute.String;
+    new_priority: Attribute.Enumeration<
+      ['prioridad_1', 'prioridad_2', 'prioridad_3']
+    >;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
